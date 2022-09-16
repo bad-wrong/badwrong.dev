@@ -944,7 +944,7 @@ var Mint = (function (exports) {
 	return exports;
 
 })({});
-const CACHE = '9312d3e214afc9c36d15f2f3f8f4faea077ff28673cbf0fa801830352854e7a7'
+const CACHE = '231382e1dd1f26e3e7ee86514c8ea076f2496b575fe8c3c28a54588c95864b04'
 const PRECACHE_URLS = [
   '/assets/B&R_Logotype_76aff7c991aa8c8b1316ae182490ec3c.svg',
   '/assets/BalticEnergy-complication@2x_5b10ca0b1b0e6040599958cf161ace38.png',

@@ -104,15 +104,11 @@
   </nav>
   <div class="grid grid-flow-row md:grid-flow-col md:auto-cols-max gap-x-16 gap-y-4">
     <span>Made in Tartu <img id="weather-icon" class="inline w-5 mx-0.5 mb-1" alt="Cloud Rain Icon" role="img"> Estonia</span>
-    <span>© Bad<span class="mx-1">&</span>Wrong OÜ, <span id="year"></span></span>
+    <span>© Bad<span class="mx-1">&</span>Wrong OÜ</span>
   </div>
 </footer>
 
 <script lang="ts">
-  function currentYear() {
-    return new Date().getFullYear();
-  }
-
   function getIconName() {
     const icons = [
       "/images/cloud.rain.svg",
@@ -132,7 +128,6 @@
     }
   }
 
-  document.getElementById("year").innerHTML = currentYear();
   document.getElementById("weather-icon").src = getIconName();
 </script>
 	
